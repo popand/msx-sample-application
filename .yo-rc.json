@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "MSXSampleApplication",
+    "packageName": "io.github.msx.application",
+    "packageFolder": "io/github/msx/application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.1.0",
+    "jwtSecretKey": "OGRhMDdhZDI5ZGU0NTBlZmQ4MGU5NGVmN2NmYjZhZWFmN2I4MjlmZmYwNDUyYjI0ZjRhOWRlY2Q4MTNiMjJjMTczNzQwMWQ4NjE4YjM3ZTFjM2QxYjdlODY3ODJjODZlMjg4MTI3MDUyNjE4MmI0YzM3NDJjYzY0ZjdkMzQxNmI=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "popand",
+  "repository-name": "msx-sample-application"
+}
